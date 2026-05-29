@@ -36,7 +36,7 @@ export default function Withdrawal() {
               <span className="text-[#FF5C00] text-sm font-medium">● Available</span>
             </div>
             <div className="text-4xl font-bold mb-2">$12,450.00</div>
-            <p className="text-white/50 text-sm">Last updated: Just now</p>
+            <p className="text-white/50 text-sm">Last updated: Just  Now</p>
             
             {/* Quick Amount Buttons */}
             <div className="flex gap-3 mt-6">

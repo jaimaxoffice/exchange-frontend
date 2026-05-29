@@ -152,7 +152,7 @@
 //               You're in!
 //             </h2>
 //             <p style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: 14, color: "rgba(255,255,255,0.4)", marginBottom: 28, maxWidth: 280, margin: "0 auto 28px" }}>
-//               Your account has been created. Check your email to verify and start earning rewards.
+//               Your account has been created. Check your email to verify and start earning Converts.
 //             </p>
 //             <Link
 //               href="/login"
@@ -228,7 +228,7 @@
 //               </svg>
 //             </div>
 //             <span style={{ fontFamily: "'Syne', sans-serif", fontSize: 18, fontWeight: 800, color: "#fff" }}>
-//               Reward<span style={{ color: "#FF6700" }}>System</span>
+//               Convert<span style={{ color: "#FF6700" }}> Now</span>
 //             </span>
 //           </div>
 
@@ -247,7 +247,7 @@
 //           </div>
 
 //           <p style={{ fontSize: 12, color: "rgba(255,255,255,0.15)", fontFamily: "'Space Grotesk', sans-serif", position: "relative" }}>
-//             © {new Date().getFullYear()} RewardSystem. All rights reserved.
+//             © {new Date().getFullYear()} Convert Now. All rights reserved.
 //           </p>
 //         </div>
 
@@ -408,22 +408,23 @@ function InputField({
         style={{
           display: "block", fontSize: 12, fontWeight: 600,
           letterSpacing: "0.08em", textTransform: "uppercase",
-          color: focused ? "#FF6700" : "rgba(255,255,255,0.4)",
+          color: focused ? "#FF6700" : "#fff",
           fontFamily: "'Space Grotesk', sans-serif",
           marginBottom: 8, transition: "color 0.2s",
+          border: focused? "#FF6700":"#fff",
         }}
       >
         {label}
       </label>
       <input
-        type={type} name={name} placeholder={placeholder} value={value}
+        type={type} name={name} placeholder={placeholder} value={value} className="custom-input"
         onChange={onChange}
         onFocus={() => setFocused(true)}
         onBlur={() => setFocused(false)}
         style={{
-          width: "100%", height: 48, borderRadius: 12,
+          width: "100%", height: 48, borderRadius: 8,
           background: focused ? "rgba(255,103,0,0.04)" : "rgba(255,255,255,0.03)",
-          border: `1px solid ${error ? "#ef4444" : focused ? "rgba(255,103,0,0.5)" : "rgba(255,255,255,0.08)"}`,
+          border: `1px solid ${error ? "#ef4444" : focused ? "rgba(255,103,0,0.5)" : "rgba(205,275,255,0.5)"}`,
           outline: "none", padding: "0 16px",
           fontSize: 14, color: "#fff",
           fontFamily: "'Space Grotesk', sans-serif",
@@ -466,6 +467,7 @@ function PhoneInput({
           color: focused ? "#FF6700" : "rgba(255,255,255,0.4)",
           fontFamily: "'Space Grotesk', sans-serif",
           marginBottom: 8, transition: "color 0.2s",
+          
         }}
       >
         {label}
@@ -474,10 +476,11 @@ function PhoneInput({
         <select
           value={countryCode}
           onChange={(e) => onCountryChange(e.target.value)}
+          className="custom-input"
           style={{
             height: 48, borderRadius: 12, width: 100,
             background: focused ? "rgba(255,103,0,0.04)" : "rgba(255,255,255,0.03)",
-            border: `1px solid ${error ? "#ef4444" : focused ? "rgba(255,103,0,0.5)" : "rgba(255,255,255,0.08)"}`,
+            border: `1px solid ${error ? "#ef4444" : focused ? "rgba(255,103,0,0.5)" : "rgba(255,255,255,0.5)"}`,
             outline: "none", padding: "0 12px",
             fontSize: 14, color: "#fff",
             fontFamily: "'Space Grotesk', sans-serif",
@@ -499,10 +502,11 @@ function PhoneInput({
           onChange={onChange}
           onFocus={() => setFocused(true)}
           onBlur={() => setFocused(false)}
+          className="custom-input"
           style={{
             flex: 1, height: 48, borderRadius: 12,
             background: focused ? "rgba(255,103,0,0.04)" : "rgba(255,255,255,0.03)",
-            border: `1px solid ${error ? "#ef4444" : focused ? "rgba(255,103,0,0.5)" : "rgba(255,255,255,0.08)"}`,
+            border: `1px solid ${error ? "#ef4444" : focused ? "rgba(255,103,0,0.5)" : "rgba(255,255,255,0.5)"}`,
             outline: "none", padding: "0 16px",
             fontSize: 14, color: "#fff",
             fontFamily: "'Space Grotesk', sans-serif",
@@ -640,7 +644,7 @@ export default function RegisterPage() {
               You're in!
             </h2>
             <p style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: 14, color: "rgba(255,255,255,0.4)", marginBottom: 28, maxWidth: 280, margin: "0 auto 28px" }}>
-              Your account has been created. Check your email to verify and start earning rewards.
+              Your account has been created. Check your email to verify and start earning Converts.
             </p>
             <Link
               href="/login"
@@ -736,10 +740,10 @@ export default function RegisterPage() {
               </div>
               <div>
                 <div style={{ fontFamily: "'Syne', sans-serif", fontSize: 22, fontWeight: 800, color: "#fff", lineHeight: 1 }}>
-                  Reward<span style={{ color: "#FF6700" }}>System</span>
+                  Convert<span style={{ color: "#FF6700" }}> Now</span>
                 </div>
                 <div style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: 11, color: "rgba(255,255,255,0.3)", marginTop: 4 }}>
-                  Earn rewards, grow faster
+                  Earn Converts, grow faster
                 </div>
               </div>
             </div>
@@ -766,7 +770,7 @@ export default function RegisterPage() {
               color: "rgba(255,255,255,0.5)", lineHeight: 1.7, marginBottom: 40,
               maxWidth: 420, animation: "slideRight 0.6s ease 0.3s backwards",
             }}>
-              Experience a new way to earn and grow. Join thousands of members already maximizing their rewards.
+              Experience a new way to earn and grow. Join thousands of members already maximizing their Converts.
             </p>
 
 
@@ -779,7 +783,7 @@ export default function RegisterPage() {
          
 
             <p style={{ fontSize: 11, color: "rgba(255,255,255,0.2)", fontFamily: "'Space Grotesk', sans-serif", margin: 0 }}>
-              © {new Date().getFullYear()} RewardSystem. All rights reserved.
+              © {new Date().getFullYear()} Convert Now. All rights reserved.
             </p>
           </div>
         </div>
@@ -796,7 +800,7 @@ export default function RegisterPage() {
                 </svg>
               </div>
               <span style={{ fontFamily: "'Syne', sans-serif", fontSize: 19, fontWeight: 800, color: "#fff" }}>
-                Reward<span style={{ color: "#FF6700" }}>System</span>
+                Convert<span style={{ color: "#FF6700" }}> Now</span>
               </span>
             </div>
 

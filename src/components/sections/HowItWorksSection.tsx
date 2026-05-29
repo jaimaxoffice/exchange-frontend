@@ -8,7 +8,7 @@
 //     {
 //       step: 2,
 //       title: "Complete Tasks",
-//       description: "Participate and earn rewards effortlessly",
+//       description: "Participate and earn Converts effortlessly",
 //     },
 //     {
 //       step: 3,
@@ -25,7 +25,7 @@
 //             How It Works
 //           </h2>
 //           <p className="text-white/60 text-lg">
-//             Simple steps to start earning rewards
+//             Simple steps to start earning Converts
 //           </p>
 //         </div>
 
@@ -69,13 +69,13 @@ const steps = [
     step: "01",
     title: "Sign Up",
     description:
-      "Create your account in just 2 minutes and unlock the full rewards platform.",
+      "Create your account in just 2 minutes and unlock the full Converts platform.",
   },
   {
     step: "02",
     title: "Complete Tasks",
     description:
-      "Participate in activities and earn rewards effortlessly at your own pace.",
+      "Participate in activities and earn Converts effortlessly at your own pace.",
   },
   {
     step: "03",
@@ -105,7 +105,7 @@ export default function HowItWorksSection() {
               How it works
             </h2>
             <p className="text-white/50 text-sm mt-2">
-              Simple steps to start earning rewards
+              Simple steps to start earning Converts
             </p>
           </div>
 

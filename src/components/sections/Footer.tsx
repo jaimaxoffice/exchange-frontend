@@ -150,14 +150,14 @@ export default function Footer() {
                   className="text-white font-bold text-[17px]"
                   style={{ fontFamily: "'Syne', sans-serif" }}
                 >
-                  Reward<span className="text-[#FF6700]">System</span>
+                  Convert<span className="text-[#FF6700]"> Now</span>
                 </span>
               </div>
               <p
                 className="text-[13px] leading-relaxed mb-6"
                 style={{ fontFamily: "'Space Grotesk', sans-serif", color: "#fff" }}
               >
-                Next-gen loyalty rewards built for speed, security, and scale. Earn more. Redeem anywhere.
+                Next-gen loyalty Converts built for speed, security, and scale. Earn more. Redeem anywhere.
               </p>
 
               {/* Socials */}

@@ -15,8 +15,8 @@ export const HOME_FEATURES = [
   },
   {
     id: 2,
-    title: "Earn Rewards",
-    description: "Get rewarded for every transaction and referral",
+    title: "Convert your crypto",
+    description: "Get Converted for every transaction and referral",
   },
   {
     id: 3,
@@ -32,7 +32,7 @@ export const HOME_FEATURES = [
 
 export const HOME_STATS = [
   { label: "Active Users", value: "50K+" },
-  { label: "Total Rewards", value: "$2.5M+" },
+  { label: "Total Converts", value: "$2.5M+" },
   { label: "Countries", value: "45+" },
   { label: "Uptime", value: "99.9%" },
 ];

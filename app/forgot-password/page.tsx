@@ -13,7 +13,7 @@ function InputField({
 }) {
   const [focused, setFocused] = useState(false);
   return (
-    <div style={{ marginBottom: 18 }}>
+    <div style={{ marginBottom: 18 }} >
       <label
         style={{
           display: "block", fontSize: 12, fontWeight: 600,
@@ -26,19 +26,20 @@ function InputField({
         {label}
       </label>
       <input
-        type={type} name={name} placeholder={placeholder} value={value}
+        type={type} name={name} placeholder={placeholder} value={value} className="custom-input"
         onChange={onChange}
         onFocus={() => setFocused(true)}
         onBlur={() => setFocused(false)}
         style={{
           width: "100%", height: 48, borderRadius: 12,
           background: focused ? "rgba(255,103,0,0.04)" : "rgba(255,255,255,0.03)",
-          border: `1px solid ${error ? "#ef4444" : focused ? "rgba(255,103,0,0.5)" : "rgba(255,255,255,0.08)"}`,
+          border: `1px solid ${error ? "#ef4444" : focused ? "rgba(255,103,0,0.5)" : "rgba(255,255,255,0.5)"}`,
           outline: "none", padding: "0 16px",
           fontSize: 14, color: "#fff",
           fontFamily: "'Space Grotesk', sans-serif",
           transition: "border-color 0.2s, background 0.2s",
           boxSizing: "border-box",
+          
         }}
       />
       {error && (
@@ -273,10 +274,10 @@ export default function ForgotPasswordPage() {
               </div>
               <div>
                 <div style={{ fontFamily: "'Syne', sans-serif", fontSize: 22, fontWeight: 800, color: "#fff", lineHeight: 1 }}>
-                  Reward<span style={{ color: "#FF6700" }}>System</span>
+                  Convert<span style={{ color: "#FF6700" }}> Now</span>
                 </div>
                 <div style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: 11, color: "rgba(255,255,255,0.3)", marginTop: 4 }}>
-                  Earn rewards, grow faster
+                  Earn Converts, grow faster
                 </div>
               </div>
             </div>
@@ -329,7 +330,7 @@ export default function ForgotPasswordPage() {
                 </svg>
               </div>
               <span style={{ fontFamily: "'Syne', sans-serif", fontSize: 19, fontWeight: 800, color: "#fff" }}>
-                Reward<span style={{ color: "#FF6700" }}>System</span>
+                Convert<span style={{ color: "#FF6700" }}> Now</span>
               </span>
             </div>
 
@@ -372,6 +373,7 @@ export default function ForgotPasswordPage() {
                 value={email} 
                 onChange={onChange} 
                 error={error} 
+                
               />
 
               {/* Info box */}

@@ -50,3 +50,6 @@ body {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+.custom-input::placeholder {
+  color: rgba(238, 226, 226, 0.5);
+}

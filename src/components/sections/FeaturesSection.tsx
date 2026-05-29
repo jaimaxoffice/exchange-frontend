@@ -9,7 +9,7 @@
 // //             Why Choose Us?
 // //           </h2>
 // //           <p className="text-white/60 text-lg">
-// //             Experience the best reward system with cutting-edge features
+// //             Experience the best Convert  Now with cutting-edge features
 // //           </p>
 // //         </div>
 
@@ -102,7 +102,7 @@
 //             style={{ fontFamily: "'Syne', sans-serif" }}
 //           >
 //             Built to{" "}
-//             <span className="text-[#FF6700]">reward</span>{" "}
+//             <span className="text-[#FF6700]">Convert</span>{" "}
 //             you.
 //           </h2>
 
@@ -278,7 +278,7 @@ function Card({
     const rect = cardRef.current!.getBoundingClientRect();
     const x = e.clientX - rect.left;
     const y = e.clientY - rect.top;
-    const id = Date.now();
+    const id = Date. Now();
     setRipples((prev) => [...prev, { id, x, y }]);
     setTimeout(() => setRipples((prev) => prev.filter((r) => r.id !== id)), 700);
   };
@@ -489,7 +489,7 @@ export default function FeaturesSection() {
                   transition: "opacity 0.5s ease 0.26s, transform 0.5s ease 0.26s",
                 }}
               >
-                reward
+                convert
               </span>
               <span
                 className="inline-block"
@@ -499,7 +499,7 @@ export default function FeaturesSection() {
                   transition: "opacity 0.5s ease 0.34s, transform 0.5s ease 0.34s",
                 }}
               >
-                you.
+                your Crypto.
               </span>
             </h2>
 
@@ -546,12 +546,12 @@ export default function FeaturesSection() {
             }}
           >
             <div
-              className="flex whitespace-nowrap"
+              className="flex whitespace- Nowrap"
               style={{ animation: "ticker 18s linear infinite" }}
             >
               {[...Array(2)].map((_, rep) => (
                 <span key={rep} className="flex items-center gap-8 mr-8">
-                  {["Instant rewards", "Secure vault", "Smart tiers", "Global network", "Zero fees", "24/7 support", "Real-time sync"].map((t) => (
+                  {["Instant Converts", "Secure vault", "Smart tiers", "Global network", "Zero fees", "24/7 support", "Real-time sync"].map((t) => (
                     <span key={t} className="flex items-center gap-3">
                       <span className="w-1 h-1 rounded-lg bg-[#FF6700] inline-block" />
                       <span

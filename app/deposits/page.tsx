@@ -180,7 +180,7 @@ export default function DepositsPage() {
 
                   {/* Submit Button */}
                   <button className="w-full bg-[#FF5C00] hover:bg-[#FF5C00]/90 text-black font-bold py-4 rounded-2xl transition-all flex items-center justify-center gap-2 mt-6">
-                    Deposit Now <ArrowRight className="w-4 h-4" />
+                    Deposit  Now <ArrowRight className="w-4 h-4" />
                   </button>
                 </div>
 

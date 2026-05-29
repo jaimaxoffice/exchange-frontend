@@ -43,12 +43,12 @@ export default function Navbar() {
               >
                 <div className="relative">
                   <div className="absolute inset-0 bg-[#FF5C00] blur-md rounded-full opacity-50 group-hover:opacity-100 transition-opacity"></div>
-                  <div className="relative w-9 h-9 rounded-full bg-gradient-to-br from-[#FF5C00] to-orange-600 flex items-center justify-center">
-                    <span className="text-white font-black text-lg">R</span>
-                  </div>
+                  {/* <div className="relative w-9 h-9 rounded-full bg-gradient-to-br from-[#FF5C00] to-orange-600 flex items-center justify-center">
+                    <span className="text-white font-black text-lg">C</span>
+                  </div> */}
                 </div>
                 <span className="hidden sm:block font-bold text-white text-lg tracking-tight">
-                  Reward<span className="text-[#FF5C00]">Sys</span>
+                  Convert<span className="text-[#FF5C00]">   Now</span>
                 </span>
               </Link>
 

@@ -7,8 +7,8 @@
 // const inter = Inter({ subsets: ["latin"] });
 
 // export const metadata: Metadata = {
-//   title: "Reward System - Earn & Withdraw Rewards",
-//   description: "The ultimate platform to earn, manage, and withdraw rewards.",
+//   title: "Convert  Now - Earn & Withdraw Converts",
+//   description: "The ultimate platform to earn, manage, and withdraw Converts.",
 // };
 
 // export default function RootLayout({
@@ -36,8 +36,8 @@ import RootLayoutClient from "./layout-client";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Reward System - Earn & Withdraw Rewards",
-  description: "The ultimate platform to earn, manage, and withdraw rewards.",
+  title: "Convert  Now - Earn & Withdraw Converts",
+  description: "The ultimate platform to earn, manage, and withdraw Converts.",
 };
 
 export default function RootLayout({

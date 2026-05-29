@@ -13,7 +13,7 @@ export default function CTASection() {
           </h2>
 
           <p className="text-white/70 text-lg mb-8 max-w-2xl mx-auto">
-            Join thousands of users already earning rewards. No hidden fees, no
+            Join thousands of users already earning Converts. No hidden fees, no
             complications, just pure earnings.
           </p>
 
@@ -21,7 +21,7 @@ export default function CTASection() {
             href="/register"
             className="inline-flex items-center justify-center px-10 py-4 bg-[#FF5C00] text-white font-semibold text-lg rounded-full hover:bg-[#FF5C00]/90 transition shadow-lg shadow-[#FF5C00]/40"
           >
-            Create Account Now
+            Create Account  Now
           </Link>
         </div>
       </div>
