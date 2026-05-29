@@ -78,7 +78,7 @@ export default function Withdrawal() {
           <div className="space-y-6">
             {/* Amount Input */}
             <div>
-              <label className="block text-white/70 mb-2 text-sm">Withdrawal Amount</label>
+              <label className="block text-white/70 mb-2 text-sm">Withdrawal Funds</label>
               <div className="relative">
                 <span className="absolute left-4 top-1/2 -translate-y-1/2 text-white/50">$</span>
                 <input
@@ -91,9 +91,9 @@ export default function Withdrawal() {
 
             {/* Payment Method */}
             <div>
-              <label className="block text-white/70 mb-2 text-sm">Payment Method</label>
+              <label className="block text-white/70 mb-2 text-sm">Select Network</label>
               <div className="grid grid-cols-3 gap-3">
-                {['Bank Transfer', 'PayPal', 'Crypto'].map((method) => (
+                {['BSC Smart Chain', 'Tron (TRX)', 'Solana'].map((method) => (
                   <button
                     key={method}
                     className="py-3 px-4 bg-black/50 border border-white/10 rounded-xl text-sm hover:border-[#FF5C00] hover:bg-[#FF5C00]/10 transition-all focus:border-[#FF5C00]"
