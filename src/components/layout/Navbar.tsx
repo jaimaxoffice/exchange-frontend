@@ -62,7 +62,7 @@ export default function Navbar() {
                       href={link.href}
                       onMouseEnter={() => setHoveredLink(link.id)}
                       onMouseLeave={() => setHoveredLink(null)}
-                      className="relative px-4 py-2 rounded-full text-sm font-medium transition-colors duration-300"
+                      className="relative px-4 py-1.5 rounded-full text-sm font-medium transition-colors duration-300"
                     >
                       {/* Hover background */}
                       {hoveredLink === link.id && !isActive && (
@@ -78,7 +78,7 @@ export default function Navbar() {
                       <span
                         className={`relative z-10 ${
                           isActive
-                            ? "text-white"
+                            ? "text-black"
                             : "text-white/70 hover:text-white"
                         }`}
                       >
